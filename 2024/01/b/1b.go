@@ -9,12 +9,6 @@ import (
 	"github.com/samber/lo"
 )
 
-type LocationPair struct {
-	left     int
-	right    int
-	distance int
-}
-
 func getUnsortedPairs(input string) (left []int, right []int) {
 	left = []int{}
 	right = []int{}
