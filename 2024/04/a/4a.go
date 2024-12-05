@@ -101,7 +101,6 @@ func wordSearchCount(search string, grid [][]string) int {
 						}
 
 						if str == search {
-							// fmt.Println(str)
 							count++
 						}
 					}
