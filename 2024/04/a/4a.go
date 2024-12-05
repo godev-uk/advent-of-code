@@ -3,19 +3,12 @@ package main
 import (
 	"fmt"
 	"os"
-	"slices"
 	"strings"
 )
 
 type Delta struct {
 	row    int
 	column int
-}
-
-func ReverseString(input string) string {
-	chars := strings.Split(input, "")
-	slices.Reverse(chars)
-	return strings.Join(chars, "")
 }
 
 func getGridLine(input string) []string {

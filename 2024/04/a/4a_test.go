@@ -72,10 +72,3 @@ func TestWorldSearchCount(t *testing.T) {
 	search = "XMAS"
 	assert.Equal(t, 18, wordSearchCount(search, grid))
 }
-
-func TestReverseString(t *testing.T) {
-	assert.Equal(t, "", ReverseString(""))
-	assert.Equal(t, "XMAS", ReverseString("SAMX"))
-	assert.Equal(t, "SAMX", ReverseString("XMAS"))
-	assert.Equal(t, "XMAS", ReverseString(ReverseString("XMAS")))
-}
