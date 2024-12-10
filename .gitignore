@@ -26,3 +26,4 @@ go.work.sum
 
 input.txt
 test.txt
+**/testdata/
