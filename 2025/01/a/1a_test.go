@@ -10,7 +10,7 @@ import (
 var testInput string
 
 func TestMain(m *testing.M) {
-	testInputBytes, _ := os.ReadFile("testdata/test.txt")
+	testInputBytes, _ := os.ReadFile("../testdata/test.txt")
 	testInput = string(testInputBytes)
 
 	os.Exit(m.Run())
